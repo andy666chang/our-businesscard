@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid efba4c66-4ab7-40a6-bb7c-80cfdf65f4a4)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 43.18 62.23) (size 53.34 73.66) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid db197c2e-4b0a-442a-89c9-faca8b24731a)
+    (property "Sheetname" "F1C100s" (at 43.18 61.5184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "F1C100S.kicad_sch" (at 43.18 136.4746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "our_card"
+        (path "/efba4c66-4ab7-40a6-bb7c-80cfdf65f4a4" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
