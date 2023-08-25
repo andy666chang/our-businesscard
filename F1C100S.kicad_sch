@@ -1597,6 +1597,9 @@
   (junction (at 105.41 146.05) (diameter 0) (color 0 0 0 0)
     (uuid 56060690-ecc0-4385-87de-1282c23c2406)
   )
+  (junction (at 205.74 139.7) (diameter 0) (color 0 0 0 0)
+    (uuid 5b1678c3-b71c-4450-b669-48e1995a8db4)
+  )
   (junction (at 40.64 39.37) (diameter 0) (color 0 0 0 0)
     (uuid 6a4856cf-ded0-4d8e-bccb-c0e4d0e4e1fe)
   )
@@ -4307,6 +4310,31 @@
       (project "our_card"
         (path "/efba4c66-4ab7-40a6-bb7c-80cfdf65f4a4/db197c2e-4b0a-442a-89c9-faca8b24731a"
           (reference "U3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 205.74 139.7 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid db7a0551-63d3-4770-bd01-6cabc02d6379)
+    (property "Reference" "#PWR030" (at 205.74 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 205.74 134.62 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 205.74 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 205.74 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 22e97f0a-f96c-4985-b71b-b4b1d58fcd04))
+    (instances
+      (project "our_card"
+        (path "/efba4c66-4ab7-40a6-bb7c-80cfdf65f4a4/db197c2e-4b0a-442a-89c9-faca8b24731a"
+          (reference "#PWR030") (unit 1)
         )
       )
     )
